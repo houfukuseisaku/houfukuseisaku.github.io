@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.5.3.2 (Windows)"/>
+	<meta name="created" content="2023-07-01T21:53:49.956000000"/>
+	<meta name="changed" content="2023-07-01T23:04:53.193000000"/>
+	<style type="text/css">
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		p { line-height: 115%; margin-bottom: 0.25cm; background: transparent }
+		h1 { margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h1.western { font-family: "Liberation Serif", serif; font-size: 24pt; font-weight: bold }
+		h1.cjk { font-family: "NSimSun"; font-size: 24pt; font-weight: bold }
+		h1.ctl { font-family: "Arial"; font-size: 24pt; font-weight: bold }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; background: transparent; page-break-after: avoid }
+		h2.western { font-family: "Liberation Serif", serif; font-size: 18pt; font-weight: bold }
+		h2.cjk { font-family: "NSimSun"; font-size: 18pt; font-weight: bold }
+		h2.ctl { font-family: "Arial"; font-size: 18pt; font-weight: bold }
+		a:link { color: #000080; text-decoration: underline }
+		a:visited { color: #800000; text-decoration: underline }
+	</style>
+</head>
+<body lang="en-MY" link="#000080" vlink="#800000" dir="ltr"><h1 class="western">
+<font face="NSimSun"><span lang="zh-CN">因数分解【摂兵摂】</span></font></h1>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">注意：かなり特殊設定です。作者はこの作品を同軸リバとして書いておりますので「摂兵摂」です。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">合わないと思った時点でお引き取り下さい。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">いいな？キャプションに書いたからな？ウィルスも性癖も、出来る限りの自己防衛でいこう！</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">多分、期間限定。決めてないけど。</span></font></font><br/>
+<br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">夏に製本予定をしております、【</span></font></font>Schrodinger's
+cat<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">】というお話の一幕です。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">こんなご時世ですので、誰かの暇つぶしの一つになれれば幸い。
+</span></font></font>
+</p>
+<p>.</p>
+<h2 class="western"><a name="chapter_0_0"></a>Factorization
+<font face="NSimSun"><span lang="zh-CN">～インスウブンカイ～</span></font></h2>
+<p><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　出会い方を間違わなければ、俺はお前の隣で笑いかけて貰えていただろうか。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そんな「もしも」を何度も考えて、その度に過去の自分に成り代わりたいと願った。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そんなファンタジー染みた思いに縋る程度に、俺は同室のいけ好かない奴に報われない恋心って奴を抱いている。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　この世に神なんてものが居るのなら、どうかやり直させて欲しい。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　初めて本気で欲しいと願ったアイツの、隣を手に入れるために……どうか。</span></font></font></p>
+<p>.</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　目覚めたら「見慣れていた」見慣れない場所だった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　寮に入ってからまともに帰ってまで寝た事なんて無い、自宅の自室。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　夢遊病にでもなったかと背中を冷たい汗が流れて、恐る恐る枕元にある携帯で確認した日付を見て、固まった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　寝る前は確かに冬になろうとしている季節だったのに、映し出されている日付は何度確認しても春先――３月になっている。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「飛んだか……戻ったか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　理解したと同時に、殆ど使ったことも無い生徒手帳を探し出して自分の置かれている状況がどうなっているのかを確認した。思いの他慌てることが無かったのは、ゲーマー仲間である干物オタクの彼が時折口にする、突拍子もない二次元設定を聞かされていたからかもしれない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　開いた生徒手帳に書かれていた文字は、何度読み返しても変わる事は無かった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「花咲学園、２年、摂津万里……ね」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　３年に進級する年の春休み中。劇団に所属するまでには、優に半年の時間がある。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なるほどな。……さて、これからどうするべきか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　なんて考えるフリをして、寝る前に考えていた事を叶えるには都合が良すぎる現状に、直ぐさまクローゼットを開け放って服を物色しはじめる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　寮には持ち込めないと置いて行った服、既に古着屋に売り払ってしまって後悔した服、全てがあの時のままだと僅かばかり気分が上向き、適当に見繕って身に着けた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そのまま一度だけ全身鏡で確認してから、上機嫌で机の上に放り出されていた財布とベッドサイドで充電されていた携帯をポケットにねじ込み、軽装備で街に繰り出した。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　やる事は決まってる。あとは、上手く見つかるかどうか、だ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　適当に歩きだした街並みで探し人が居そうなケーキ屋をしらみ潰しでのぞいて回る。１日で見つかるわけは無いだろうが、動かなきゃ見つかるもんも見つからない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いっちょ、やってやろうじゃねぇの！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　イージーモードは伊達じゃないって所、見せてやんよ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　　</span></font></font>***<br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　何軒目かで見慣れた学ラン、髪色のガタイがいい奴を見つけてほくそ笑む。幸先は上々。神はどうやら、こんな状況でも俺の味方をしてくれるらしい。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　取り敢えずの目標、兵頭十座のはじめての友達ってヤツになる事。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　何度も考えた。出会い方が違えば、俺がケンカなんて吹っかけなければ、どこかで上手く出会えていれば、なんて。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　どうせこの都合のいい状況は夢だろう？　だったら、願った事を叶えたい。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　まずは、ハジメマシテから始めよう。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　大丈夫。俺はもう、アイツがどんな奴かを知っている。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なぁ、ちょっといいか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　絡まれ慣れてる低くドスの効いた声。それと共に振り向いた視線の鋭さは、初めて出会った時を思い出させた。何度も聞いた事がある威嚇を含んだ声。それが目の前の存在が兵頭だという証の様で、口角が上がるのをグッと堪えて拳の届かない範囲で近づいた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「んな怖い顔しねーでいいじゃん。ちょっと聞きたいことあるだけだっての」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……喧嘩か」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「は？　ちげーし……。アンタ、喧嘩してぇの？　だったら別なヤツ探してくんね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「違う、のか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　まぁ、過去には喧嘩吹っ掛けてるから、思い出すと苦笑いが浮かぶんだけどな。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「だーかーら、そーいってんじゃん？　まぁいいや。アンタさ、甘いモン好き？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……好きじゃねえ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　絶対に否定される事は分かってた。つーか、バレバレなんだっての。プライベートまで大根かよ。まぁいいか。さて、ここからが腕の見せ所だ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あー……マジか。ケーキ屋覗いてたから好きなんかと思って。じゃあ無理か……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なんなんだお前……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　困惑気味の兵頭と、苦笑いの俺とが顔を見合わせている不思議な空間。そっと携帯でスイパラのネトゲコラボのページを開いて差し出した。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いや、俺さぁ？　コレに行きてェんだけど甘いモンそんな食えなくて、同行者探してたんだわ。１皿食うごとに貰える限定のキャラチケ欲しいから、女じゃ無理。最低でも５皿は食わないと話になんねーの。だから甘いの食えそうな男探してたっつーわけ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「５皿……これを、５皿も食えんのか……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　正直、かかったって思った。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　実際、あの頃このコラボカフェに行ったはいいが、適当に見繕った女を連れて行った結果１皿で「太る」とかなんとかいって終わった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　勿論、俺が完食できるわけもなくて、手に入れられたキャラチケは１枚きり。このタイミングで兵頭に出会えるなんて、渡りに船。キャラチケは軽く見ても５枚は余裕で手に入るし、なにより……兵頭と一緒に和やかに出かけられる千載一遇のチャンス。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　マジで演劇やってて良かったって思う、なんてこんな事で思っちゃいけねぇのかも知れないけど、俺にもちょっと余裕ないから。使えるもんは何でも使う。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　さて、後は上手く誘導すりゃ行ける。大丈夫だ、今の俺なら出来る。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あ？　アンタやっぱ甘いの食えんだろ！　なぁ、この皿だったら、正直言って何皿食える？　金額も度外視な！　ただ、食うだけ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「…………５皿以上なのだけは」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「盛ってねぇ？　マジで最低５皿いけんの？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　間違いなくお前ならこのスイーツを５皿以上なんて、楽に食いきる事も解り切ってるけど、俺の迫真の演技に釣られてマジな顔で頷くから、小さくガッツポーズのオマケまでつけて笑いかけてやった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なあ、アンタ明日暇？　俺とココ行ってくれねぇ？　金は出すから代わりにこれ食って欲しいんだわ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ここに、俺と……？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そりゃ困惑するわな。初めて会った奴に声かけられて、明日一緒にカフェ行きませんか？　なんて、女なら逆ナンだけど同じ男だし？　まぁ、俺の気分だけで言えば間違いなくナンパの類であってるんだけど、そんな事言える訳もねぇ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　だから押してばかりじゃなくて少しだけ引いてみる。押しに弱いのもあるが、コイツは不思議とお願い事を遠慮がちに言われる方が断れねぇのも知ってる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あー……予定ある？　てか、やっぱ……迷惑？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「補習、終われば暇、だが……。迷惑っていうか、なんでわざわざ俺なんか……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「甘いもんを量食える奴が良いってのと、まぁ……正直言っちまえば、俺を知らない奴の方が都合良いっつーか？　なぁ、マジで金は俺持ちだから頼むって！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　半分嘘で、半分正解。あの時のように女を連れて行かなくても、取り巻きの野郎共を数人連れて行けば正直キャラチケは目標数確保できる。だとしても、こんなチャンスを棒にふって他の奴に声を掛けるなんてあり得ない。顔の前で両手を合わせて少しだけ身をかがめながら顔を窺った。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「そこまで……言うなら」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おっし、決まり！　あ、俺、摂津万里。花学の２年、アンタは？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「兵頭十座、欧華高校２年……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　知ってる、知ってんよ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　Ｏ高最強とか言う二つ名までついてる癖に、喧嘩が嫌いな平和主義者で、無類の甘党で、自分以外の誰かになりたくて演劇に憧れてる大根。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　それから、俺が初めて喧嘩で負けて、俺が初めて本気で欲しいって思った奴。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「お、タメじゃん。ＬＩＭＥやってる？　アド交換してくんね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　矢継ぎ早にまくし立てて、ポカンとしている間にＬＩＭＥの登録画面を見せつけてニヤリと笑う。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　相変わらず困惑気味なのは、こうやって誰かと面と向かって話す事すらままならなかったからだろ？　きっと知らねぇ奴が見たら睨まれてるなんて勘違いするくらい、眉間に皺が寄ってる。でも、俺はそれがただの困惑だっての解ってる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「明日、何時に終わんのー？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「昼には、終わるが」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「んじゃ、学校まで迎え行くから終わったら連絡してな？　校門前でいい？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……本気で言ってんのか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「冗談で男ナンパすっかよ。……やっと見つけたのに逃すとかねぇから。そのかわり、マジで最低でも５皿だかんな？　ぜってー食って貰うから」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　慣れない手つきでＬＩＭＥを登録している手元を覗き見たそこには、家族しか入っていないだろう少ない登録者。その中にきっと他人として初めて潜り込んだのが俺だと思えば、その小さな事にすら舞い上がるほどに嬉しくなる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「マジでよかったわー、お前……兵頭が甘いもん好きで」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……笑わねぇのか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「は？　何に？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　分かってる。甘い物が好きな事を恥ずかしいって思ってんの。何を恥じる事がある。好きなら好きでいいだろ。お前、笑ったら可愛い顔してんだから、笑っとけよ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ずっと言いたかった。好きな物を好きでいていい、と。言えるような関係性じゃなかったが、今なら言える。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「変だろ。俺みたいなのが……甘いモン好きとか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「お前が甘いモン好きで、誰かが迷惑でもすんのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「…………しねぇ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「だったらよくね？　好きなら好きで。俺はそれで助かる訳だし。別にお前のダチだって何もいわねぇだろ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　くしゃり。と、痛ましげに顔が歪んだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ごめんな、知ってる。一人なの、分かってる。でも、すぐに一人じゃなくしてやっから、今だけ、ごめんな。……ずるくて、ごめんな。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ダチなんて、いねぇから……わかんねぇよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……あー、じゃ、俺が１号な。お前のダチ１号！　で、ダチの俺はお前が甘いモン好きで助かる。はい、解決ー」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　上手く笑えたか？　兵頭を少しでも明るく笑かせるくらいに、笑えたか？</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　誰よりも先に笑顔を見たいとか、思ってる。兵頭の１番になりたい、とか。おこがましいかもだけど。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「くっ……ははは！　お前、変なヤツだな？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「お前じゃなくて、摂津万里な。兵頭、笑ったら案外可愛い顔になんのな？　顰めっ面じゃなくて笑ってろよ。その方が男前も上がっていいぜ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　やっと笑った顔が見れた。顔をくしゃくしゃにして、心底楽しそうにしてる顔。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　俺が欲しくて欲しくて、息が出来ない程に求めていたその顔が、今間違いなく真っ直ぐに俺に向かっている。その事実が嬉しくて、涙が出そうだった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「じゃ、明日な！　ちゃんと連絡するまで帰らないで待っとけよ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……お前が嘘つきじゃない事でも祈りながら待っててやる」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「嘘じゃねぇっての！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ふっ……。じゃあな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おう、また明日、な！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　手を振って見送る俺に、控えめだけど小さく手を上げて応えた後にゆっくりと過ぎ去っていく後姿を、見えなくなるまで目を離すことなく眺め続けた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　また明日、その言葉に込めた願いは「夢ならばどうか今しばらく覚めないでほしい」という事だった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　それから俺と兵頭が距離を詰めるのは早かった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　所謂、初めてのダチという名目の俺に兵頭は目に見えて懐いた。多分、それを決定づけたのは一緒にいる時に兵頭に絡んできた奴を、俺が片っ端からのした時だ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　それまであった変な遠慮が無くなった。初めのうちは、一緒にいると面倒な輩に絡まれる事を危惧していたんだろう。だが、絡まれた時に俺の素行の悪さと、それに見合うだけの腕っぷしを目の当たりにして兵頭の態度が変わった。あの初舞台の時のように背中を合わせて大人数を二人で相手取った時に、きっと吹っ切れたんだと思う。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　アイツに降りかかる火の粉を一緒になって払うくらい、俺には余裕。逆もまた然り。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　いつの間にか、「花学の摂津」と「Ｏ高の兵頭」がつるみ出した噂は瞬く間に広がった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　なんだか、二人で一つだと言われているようで、不名誉なはずのその噂にすら胸が躍っていた。一人きりだった二人が出会って、最強の相棒になれたような……そんな気持ちだった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　その頃から、自然と互いを名前で呼ぶ事に違和感も感じなくなっていった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おー。おまたせー。つーか、俺が教えてやったテストどうだったよ？　流石に少しは点数あがっただろうな？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「めでたく補習回避だ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「やればできんじゃねぇか！　うっし、祝いに今日はこの前言ってたクレープ食いに行かね？　あそこ、甘くねぇのも結構あるから気になってんだよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　嬉しそうに待ち合わせ場所で俺の名前を呼んで、当たり前のように隣を歩いて、たまにわざと肩をぶつけては笑い合う。そんなどこにでもいる高校生って奴になれた時から少しずつ、兵頭……十座にバレない様にパーソナルスペースに入り込んで、隣に座る時には距離をほんの少し詰めていった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　今となっては足が触れ合う距離に座る事が当たり前で、十座が後から座ってもぴったりと寄り添ってくる。甘味に視線を奪われて止まりたい時は、どこか掴んで俺も一緒に止めろと言ってから大人しく俺を引き留めるようになった。それが服の裾を経て、今では腕を無意識に掴んで引き止めてくる。正直、押し倒したくなる程度には可愛い。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　無自覚にしょんぼりしながら「万里」と俺の名前を呼んで、食いたい物と俺を視線で結ぶ事が、もはや癖になっている。俺に対して、甘いものが好きだというのを隠さなくなった。それでも他人の目は未だに気になるらしく、もっぱら買いに行くのは俺の役目だが。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　キラキラした眼差しで俺の帰りを待っている十座を思えば、ファンシーな店だろうが進んで足を踏み入れる事もやぶさかではない。未来で犬猿の仲って奴を経験している俺としては、あの兵頭十座が俺に対して待てを言いつけられた犬のように、行儀よく帰りを店の外で待っている姿は破壊力が強い。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　想像してみろよ。どう考えても可愛いだろうが。俺のだから誰にもやらねぇけどな。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そうして当たり前のように十座の隣は俺の場所だと刷り込んだ。生まれたての雛が初めて見た動くものを親と思うように、表面が乾いて固くなったケーキのスポンジみたいな隙間に、ドロドロに甘いシロップを沁み込ませて、俺から離れて行かないように……そう仕向けた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　季節が夏に差し掛かった頃、十座がソワソワと俺に一枚の紙を差し出した。未来では直接見る事が出来なかった新生夏組の旗揚げ公演のチケット。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　とうとう、俺の知ってる舞台がそこに見え始めた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……どーしたんだよ、それ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「一緒に、行ってくんねぇか……？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ＭＡＮＫＡＩカンパニー？　聞いた事ねぇけど、有名な所なのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いや、ちいせぇ劇団だって聞いてる。その……これに椋――従兄弟が出る」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「へぇ？　すげーじゃん！　陣中見舞いってやつ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「挨拶は、行くつもりねぇ。アイツは俺と違うから……俺みたいなのと従兄弟だとかバレたら迷惑かけちまう」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「まーたンな事言ってんのかよ。いい加減卑屈直せってのー。てか、それなら余計に俺と一緒でいいワケ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里と、行きてぇ。駄目か？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　不安そうに瞳を揺らして、デカい体を小さくして覗き込むようにして見てくるその顔に笑いかけ、頭に手を伸ばして十座の髪を乱す。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　あの頃は、こんなことも出来なかった。何でもないように十座の頭を撫でる臣が羨ましくて仕方が無かった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いーよ。行こうぜ？　俺も、ちっと興味あっから」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……万里が？　演劇、興味あんのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「まぁ？　なんつーか、刺激的だろ。自分じゃない、誰かの人生を短い時間だろうが生きるっての？　普通に生きてりゃ自分以外にはなれねぇけど、これなら出来る訳じゃん。楽しそうだと思わねぇ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　なんて、知った風に言うけど、これは全部お前が思ってた事だよな。誰かになりたい、自分以外の誰かになってみたいって。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ここでも、お前と一緒に板の上に立ちてぇよ。いがみ合ってても、あれだけの達成感感じたんだ。今の俺達なら、間違いなく最高のバディになれると思わねぇ？</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里も、なのか……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　嬉しそうに瞳を細めて俯きがちに小さく呟いた十座の言葉が、心の奥底から出された音のように聞こえた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　今度は、最初から――いや、始まる前からお前の隣には俺が居てもいいか？　大丈夫だ。二回目ともなれば、いつも以上に上手くやれる。あの時よりももっと上手く、お前を上まで引っ張ってやる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　だからもう一度、あの時以上に最高の瞬間を隣で迎えさせてくれ。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二人で行った新生夏組旗揚げ公演は、映像でしか見れなかった時と違い、生の空気をそのまま感じられた事で一層の良さがあった。勢いのあるコメディで、その中でも泣かせるラスト間近の幸の演技は天馬の隣に並んでも遜色ないのが良く分かった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二回公演で座長を務めたのは見ていたが、この初演できっと舞台に対する度胸だったり、いろんなものを学んだんだろう。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　天馬も舞台にトラウマがあったと聞いたが、公演を見る限りそんな影は微塵も感じない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　不思議だ不思議だと思ってた三角は、ランプの魔人として舞台を所狭しと走り回る姿がとても板についていたし、フィジカルモンスターなのが良くわかる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一成のチャラさを全面的に押し出した配役は、当たりとしか言いようがない。口当たりのいい言葉、チャラくとも軽薄に聞こえないのは、持ち前のいい奴が滲み出るからだろうか。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そして、椋。初舞台であの性格を考えれば緊張に緊張を重ねただろうに、堂々としている演技に隣に居る十座が目を見開いて、羨望の眼差しを向けているのが良く分かった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　きっと心の中はあの眩しいステージに自分を投影して、憧れと羨望を強く抱いているんだろう。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「良かったな。お前の従兄弟も堂々としてて格好良かったじゃねぇか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……そう、だな。椋は人見知りな所もあって、人の影に隠れがちな奴だったんだが。あんな風に堂々としてるのなんて、見た事なかった」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　目を細めて少しだけ寂しそうな笑みを口元に乗せて小さく笑っている。その手にはフライヤーと、新生秋組結成の為のオーディション日程の記載。穴が開く程にそれを眺めている姿にそっと背を掌で叩いた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　もう少し、もう少しであの場所に一緒に上がれる。早く、早くあの場所に……。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「やりてぇなら、やればいいんじゃね？　受かる受からないは別として、気になってるなら飛び込んでみりゃいい」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「だが、俺は……素人だ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「お前の従兄弟は経験者だったのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いや、そんな事は、なかった」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「だったら、条件は一緒だろ？　……俺もやってみっかなー？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　十座の手からフライヤーをするりと抜き取って、ひらひらと動かしながら驚いた顔をしている十座を数歩置き去りにして歩みを進める。バタバタと後ろから走って距離を詰めてくる姿を肩越しに眺めると、口元には分かりやすく笑みを刻んで体ごと振り向いた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「な、一緒にやろうぜ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……っ、おう！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　あぁ、こんなにも簡単に言葉が出てくる。こんなにも簡単に俺に笑いかけてくれる。それがこんなにも幸せだなんて、知らなかった。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二人揃って足を踏み入れたＭＡＮＫＡＩカンパニーの劇場では、左京さんに臣、それから太一の顔があった。夢にしては長く滞在しているが、こっちに来てから見ていなかった秋組のメンバーの顔に、一人で小さく笑みをこぼした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　オーディションでは驚くほどの大根ぶりを見せつけた十座に懐かしさを感じた。あの頃は腹を抱えて笑ったが、今はどれだけの思いを胸に秘めてここに居るかを理解している分、笑える訳もなかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　少し落ち込んだように俯く姿に、しゃんとしろと思いを込めて背を叩く。あの時と違うのは、俺の方が後から演技をするという事。一度やったエチュード。電話で合格を母親に知らせるその一節に全身全霊をかける。電話の内容だけじゃなくて、その背景まで自分の中で作り込む。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　設定は大学受験に合格した一人息子。そうだな……母子家庭って事にしようか。女手一つで育ててくれた恩義がある母親に合格を知らせる。そこまでを考えて落とし込んだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「――もしもし、母さん？　……受かってた。……うん。うん……、信じられないけど……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　言葉に滲ませるのは感謝の気持ち。有難うと直接的に言葉にしない代わりに、声音に乗せる思いに重点を置いた。やり切った時には静まり返った舞台上。隣に目を向ければ驚いた顔をしている十座がいて。へらり、と笑って見せれば少しだけ恥ずかし気に唇を噛んで俯いた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　どうせまた、しょうもないネガティブな事を考えているんだろう。大丈夫だって言ってやりたいけど、それは稽古が始まってからだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　例に漏れず人数の関係性で全員合格。一安心したように安堵の溜息を吐き出した十座の髪を、くしゃりと一度撫でてやった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「みんな、寮で大丈夫かな？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おー。俺はその方がいいし、親も問題ねぇよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺も、それで」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　入寮の為に監督ちゃんが連絡をしてくれて、あの時と違うのは先に両親へと話を通して置いた事。好きにすれば良いと言われていた事もあって問題なく入寮が決まった。十座も同様で、俺が知る時間にまた一つ近付いた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　寮の部屋割の話になった時には、交流を深めるとか言う理由で元から知っている俺と十座が離されないように、先に話を詰めようかと口を開こうとした時に予想と違う事が起きた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「二人部屋だってなら……万里と、一緒にしてくれませんか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「じゅう、ざ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「嫌、か？　流石にその……知らねぇ環境での生活になる。同室だってなら、万里と一緒だと俺は安心だし……嬉しい」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　くいっと俺の服の袖を指で控えめに引っ張りながら、十座がお伺いを立ててきた。俺と一緒に住みたいと自ら口にした姿を前にして、変な声を上げなかった俺を誰か褒めて欲しい。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　これはもう、実質十座からのプロポーズじゃねぇか？　結婚するか。いや、まだ年がちょっと足りねぇ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里？　嫌だったら、断ってくれて――」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「嫌な訳ねぇだろ？　俺から言うつもりだったのにお前が言うからびっくりしただけだって。俺だって同室なら十座が良いに決まってんだろ？　って事で、俺ら二人でいいっすか？　えーと……他のみんながそれで良かったら、って奴なんだけど」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺からも、お願いします」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一瞬トリップしていた脳内から現実へと目を向けて、二人揃って秋組の面々に頭を下げた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　臣は元から邪険にするような奴じゃないし、太一もそうだ。左京さんはなんだかんだ言って問題が無い事に関しては自主性を重んじてくれる。思っていた通りに二人での相部屋が決定して、二人顔を見合わせて拳を合わせた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二人の生活が、あの頃欲しかった最高の形でやっと始められる。誰にも渡さない、なんて病んだ言葉を言うつもりは無いが、十座が誰かを隣に据える時が来るまでは、独り占めできる時間が少しでもあればいい。なんて、らしくもなく気弱な事を考えるのが精一杯だった。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　順調に稽古と新しい生活が過ぎていく中で、新生秋組旗揚げ公演は変わらずピカレスクに決定した。今回も当て書きで、俺と十座はバディ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ただ違うのが、いがみ合っていた状況じゃなくて俺たちの関係が良好という事。お陰で演技は大根のままだとしても、十座の俺との息の合い方はあの時とは比べてハイスピード。夜遅くまでの自主練は充実したものになった。これならいける、そう思ったのは立ち稽古が本格化する前までだった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　まさか、二人の良好な関係性がこんな弊害を生むとは、思っても見なかった。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「兵頭、摂津に近付き過ぎだ。互いに嫌い合ってる連中がそんな距離感で安心してるみてぇに寄り添うんじゃねぇ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……すんません」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あー……ちっと休憩しね？　んで、十座はちっと俺と話すんぞ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　元々上手く出来ない事をやろうとしている上に、俺が詰めた距離の分、当たり前にそれを受け入れていた十座が、演技でいがみ合うような事を上手く出来る筈もなく。無意識なのか芝居に躓きそうになると、そっと横目で俺を確認する始末。早めに手を打っておかないと拗れてしまいそうで、休憩を言い渡すと弛緩した雰囲気の中でレッスン室を二人で抜け出した。中庭に出て来ると、夏の終わりから秋の色が出始めた空気に細く息を吐き出しながら、後ろをついて来た十座を盗み見る。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　耳が垂れた犬のように、しょんぼりと肩を落としている姿には、ヤンキーと言われる強面の印象も影を潜めていて、明らかに落ち込んでいる様だった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「んなしょげた顔すんなって。まだ始まったばっかりだろ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里……悪い」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺もお前も、ど素人なんだから気にすんなよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「それでも！　……それでも、万里は上手くやってる」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　悔しそうに唇を噛みしめる姿に、苦笑いが浮かぶ。どんなに言葉をかけても、結局自分で納得が行かないならば、人の言葉はただの慰めにしかならないもの解っている。真っ直ぐすぎて融通が利かない、そんな愚直さも兵頭十座という一人の男に惹かれた要因の一つだから。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　とはいえ、その愚直さが足を引っ張る事もある。本腰を入れて今の俺達にとっての役作りをしないと、目も当てられない結果になりそうだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　今の俺達に足りない物、それは間違いなく敵対心だったり殺伐とした空気感だろう。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なぁ、役作りちゃんとやってみねぇ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「どうすんだ。上手くなるためなら、ある程度の覚悟は出来てる」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「部屋はまぁしょうがねぇけど、なるべく喋らねぇようにする。十座、俺の事は、嫌いな奴だと思え。そうだな……呼び名も暫く変えっか。名字で呼べ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「な……万里、」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「摂津。そう呼べよ、兵頭」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　こっちで出会ってから呼ぶことが無くなった呼び名を久しぶりに口にした。どことなく懐かしさすら感じて、あの時の強がりが自然と出てきて少しだけ言葉に棘が乗った気がするのは、きっと気のせいじゃない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　言霊とはよく言った物で、名前に込めた思いをそのまま体現してしまうらしい。全ての感情がバレない様に必死になったがゆえに、名前を呼ぶたびに必要以上に棘を乗せてしまった「兵頭」という言葉は、長く口にしていなくても根底に残っているらしかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里……っ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「摂津、そう呼べっての」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……摂津、」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「よし、戻んぞ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　苦しそうに俺を摂津と呼んだ十座をちらりと横目に見てから、少しだけ距離を離したままレッスン室へと二人で足を進めた。雰囲気まで変わった俺に困惑しているんだろう。それでも、俺にとって二回目の今回はあの時よりも絶対に良いものにしたかった。ただの我儘だとしても、本当に最高の舞台を用意したかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　レッスン室に戻って来た俺たちの雰囲気が違う事に顔を顰めた左京さんに、事のあらましを説明した。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　バディになり切れない冒頭の役作りの為に互いを苗字で呼ぶ事、喧嘩をしている訳ではないから心配しないで欲しい事、二人の距離感を少し離そうとしている事。その説明の全てを終えるまで、俺の少し後ろで不安そうに瞳を揺らしながら俯いていた十座の姿は、俺にだけ見えていなかった。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「っし、こんなもんか。じゃ、今日の稽古はここまでって事で」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　額から落ちる汗が顎まで伝い、首に流れて稽古着の襟もとに吸い込まれていく感触に息を吐き出して声を掛けると、疲れもあるだろうが充実した時間を送れたことに満足げな顔がレッスン室に溢れていた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ただし、十座の表情は浮かない物だった。気になったが距離を置くと言ったのは自分からで、気軽に声もかける事ができない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「摂津、リーダーが板について来たじゃねぇか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「お？　マジっすかー。左京さんに褒められるとかレアじゃね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「調子乗ってヘマすんじゃねぇぞ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　左京さんからの言葉は、今まで通りに受け取ればきっと突っかかっていただろうものだったが、声音が優しく俺に対しての信頼が滲んで見えるようだった。だからこそ、素直に受け取って甘えにも似た言葉を返す。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「わーってますって。ま、リーダーって言っても助けてくれる仲間っての？　居るから気楽にやりますわ。って事で、年長者にお世話になる気でいるんで、今後も宜しくおなーっしゃっす」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「たく、調子いい事言いやがって」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　意地を張って突っぱねていた時には出来なかった、少しだけ成長した素直な自分で最初から接した結果、本当に良好な関係が築けている。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　左京さんとは二人で芝居の話もするし、俺が芝居に本気になってるのを解っているから求めて来る物もあの時より格段に多い分、しっかりと信頼関係って奴が出来てるのが解る。お陰で抜けない学校のサボり癖についてはほんの少し寛大な気もする。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　実際、多少遅れそうで急いでる時に車を出してくれる事まであるのだから、この人は頼られたら頼られた分だけ懐に入れる人なんだと理解した。その代わり、求められている物を返す努力はしてるつもりだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万チャン！　俺っち宿題で解んない所あるんすけど……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あー？　まったく、しょうがねぇな。飯の後に談話室でいいか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ありがとう！　万チャン大好きっす！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　太一はあの頃よりも、遊びじゃなくて勉強方面で頼ってくることが増えた気がする。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　学年が下だから聞かれて教えられない問題は無いし、今はまだ冬組が居ない。優しく教えてくれる紬さんが居ない今、気まぐれな至さんか、スパルタな左京さん、甘やかす臣の三人が勉強を見てくれることもあるが、年も近く無駄な事までやらせようとしない俺がきっと丁度いいんだろう。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　覚えの悪い十座へと勉強を根気よく教えた結果、きっと人に教えるスペックも跳ね上がった事も要因の一つだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「調子いいなお前は……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「摂津といい勝負だな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ちょ、左京さん！　それはねぇっしょ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万チャン、どういう意味っすか</span></font></font>?!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺も見てやれるが、太一が万里の方がいいって言うんだよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「臣クン！　俺っちそんな事言ってないっすよ！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ホントお前、俺の事大好きなー？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「揶揄わないで欲しいっす！　でも、万チャンは大好きっすよ！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　軽口の応酬は、ここで手に入れた掛け替えのないものの一つになった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　軽くジャンプして抱き着いて来た太一を抱えて、一回転振り回してやった時に見えた十座の表情は苦しそうな、辛そうな、そんな顔だった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　その表情を見て、俺の心が小さく軋んだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里は下の面倒も良く見てて偉いよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「へ……？　あぁ、そうか？　って言っても、臣ほどじゃねぇよ。いつも美味い飯作ってくれっし。俺、臣の飯すげー好き」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「そっか！　じゃあ今日も美味いの作るよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「後で手伝うわ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　軋んだ心をを誤魔化す様に声を掛けて来た臣に答えて笑顔を作る。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　十座との時間を減らすために臣の手伝いを頻繁にするようになった。元々出来ない訳でもなかった料理の腕は手伝いを続けるうちに跳ね上がった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一から作り上げたものが食った奴の体を作るかと思えば、十座の体を一部なりとも俺が作っていると言えるし、悪くない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　あ？　気持ちわりぃ？　もうとっくにそんな思考は通り過ぎて来たから気にもならねぇな。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「兵頭、自主練するんだったら夜付き合うから声かけろよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……ば――。摂津、は忙しいんじゃねぇのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「お前の稽古に付き合うくらの時間あるっての。で？　どーすんの？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……やりてぇ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「んじゃ、太一の宿題速攻で終わらせっから。つーわけで太一、今日はスパルタだかんな？　一回で着いてこれなかったら左京さんに残り任すわ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ええ！　万チャンそんなぁ～！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「七尾、俺じゃ不服だってのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「そそそそ、そんなことないっすよ</span></font></font>?!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　左京兄は忙しいから俺っち一回でちゃんと出来るようにするっす！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　賑やかな輪の中、一歩外側で少しだけ寂し気な十座の姿を解っていながら、今の俺には芝居に絡めてでしか手を差し伸べてやることが出来なかった。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二人きりで行われたレッスン室での自主練は、重く暗い空気が漂っていた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　上手くいかない焦燥感と、俺との距離が離れた事での不安に苛まれているのか、十座の動きが小さくまとまっていて、お世辞にもランスキーの片鱗すら見えてこない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あー……そんな不安そうにしてんなよ。ランスキーがそんな気弱でどーすんだよ。なぁ兵頭、ルチアーノとランスキーは反りが合わねぇ、いわば犬猿の仲なんだ。最後には確かに気を許してる部分もあんだろうが、腕を信頼はしても、人格を信用すんな。全力で気に喰わねぇって押し出すくらいでいい。テメェなんて大っ嫌いだ、顔も見たくねぇ、それでもやらなきゃならねぇ事の為に利用してやるって気持ちぶつけてこいや」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一つ大きく溜息を吐き出してから、どうにか引っ張り上げたい一心で言葉を綴った。それに十座がびくりと体を震わせて、俯いた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……ん、で……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あ？　聞こえねぇよ、なんだって？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　小さく零された言葉は、俯いている事でまともに俺の耳には届かなかった。もう一度聞こうと耳を傾けながら問いかければ、視界から十座が消えた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なんで、お前はそんな平気な顔してんだ……！　俺だけか？　俺だけがこんな辛いのか</span></font></font>?!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ひょ、」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「やめろ！　お前にそう呼ばれるたびに、心臓が痛くなるっ……！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　蹲まるようにして頭を抱えた十座の足元に、ぽつりぽつりと水滴が落ちている。唖然として行動が遅れた俺の目の前で、体を小さく折りたたんで肩を震わせながらヒクリヒクリと喉を引くつかせていた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一度だって十座のこんな姿を見たことが無い。対処法なんて、俺の手持ちの攻略本には書かれていない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ひょ、……十座。泣くなって……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ばん、り……万里……っ！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　数日振りになる名前を、大事に呼んだ。今できるのはそれだけしか見つからない。周りが見えていなかった俺の頭には、解決策なんて浮かばなかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　俺の声に応えるように、ゆっくりと十座が顔を上げた。見上げて来た瞳は、迷子の子供の様に揺れ動いている。しゃがんで視線を合わせて頬を濡らす涙を拭ってやる。その手を掴んで瞳を伏せながら何度も擦り寄ってくる姿には庇護欲が大いに煽られた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……やりすぎた、か？　悪い……お前の気持ちまでちゃんと考えてやれなかった」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺が、上手く出来ねぇからしょうがねぇって。万里だって本気で俺を遠ざけたい訳じゃないって……そう、思ってた」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　吐き出される音はどれもこれも悲しみに濡れていて、ぎゅっと心臓を冷たい手で撫でられるような、そんな居心地の悪さを感じる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「思ってた、って……実際そうだっての。遠ざけたいなんて思ってねぇよ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「部屋に、帰ってくるのが遅くなった……。俺と、稽古以外で目を合わせなくなった……。一つ一つ、重なって、お前が……万里が、名前を呼ぶたびに苦しくなった。確かに俺の名前なのに、呼んでるのは同じ声なのに、たかが、名前か苗字かの差しか無い筈なのに。なのに、音が……つめてぇんだ……。どっちも間違いなく俺の名前なのに、嫌なんだ……！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　心よりも先に体が動いた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　正面から頭を抱えるようにして抱きしめて、稽古で湿った髪を何度も何度も優しさを込めて後ろに撫でてやる。稽古着の胸元に二人分の汗と一人分の涙に濡れる感触を感じながら、ヒクリヒクリと震える肩を撫でて、落ち着かせるように何度も優しさと愛しさを込めて名前を呼んでやる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「十座、無理に喋んなくていいから。ごめんな？　お前と最高の芝居したくて焦っちまった。もっかい、ゆっくりどうすりゃいいか一緒に考えねぇ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「もう、摂津って呼びたくねぇ……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いつも通りでいい」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「兵頭って、冷たい声で呼ばれたくねぇんだ……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「悪かった……十座」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　何度も何度もこんな事で安心させられるか分からなくても、望まれている名前を口にすることくらいしか出来ない。頬に手を添えて顔を上げさせて、目尻から滑り落ちる雫を指で払って正面から目を合わせて背に腕を回し、抱きしめながら背中を擦る。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　こんなに思い詰めているなんて、考えてもみなかった。誰よりも繊細で、素直で、無垢なコイツの事を、俺はちゃんと分ってやれていなかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「泣き止んだか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あぁ……。取り乱して、悪かった……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「まぁ、俺のせいだし？　それに初めて十座の泣き顔見たな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「忘れろ……！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　忘れてなんてやらない。これは俺が犯した過ちだから、二度と同じ寂しさを感じさせないように、絶対に忘れてなんてやらない、忘れちゃいけない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「やーだね。俺が恋しくて泣いたとか、すっげぇ可愛い理由だったし？　……寂しい思いさせて悪かった」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ばっ……かじゃねぇのか……。なぁ万里、頼みがある」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ん？　言ってみ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……芝居、どうしてもうまくなりてぇ。他の奴らに比べて、俺だけ明らかに出来が悪いのは解ってる。俺のせいで舞台、台無しになんてしたくねぇんだ。だから、頼む。俺も連れて行ってくれ。お前が見てる、その景色の場所に」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　泣き腫らした目のままなのに真剣な顔をして、頭なんて下げるから胸に込み上げて来た物があった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　独りよがりに、もう一度あの舞台のあの景色をもっといい状態で見てぇって、十座に一人で無理させて来たのに、俺が見たいと思ってる景色を一緒に見てぇとか……そんなん、殺し文句でしかねぇよ……。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ぜってぇ、連れて行ってやる。第一、俺が見てるその景色の隣に居るのは十座なんだ。一緒じゃ無きゃ、意味なんてねぇんだよ。……お前は笑うかもしれないけどさ。俺が今ここに居るのは十座と舞台に立ちてぇ、って思ったから。芝居に興味あるって言うのも、結局お前と一緒にやりたかっただけだって言ったら……呆れるか？　十座みてぇに、さ？　純粋な動機なんてもんじゃねぇんだ……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　あの景色の中には、絶対に十座が、秋組の連中が必要不可欠で。誰が欠けても成り立たない。だから、絶対に引っ張って、背を押して、声を掛けて、高みまで連れて行ってやる。どれだけその裏に、ちいさな下心があったとしても、芝居への熱は本物になってるから。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里、お前……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「笑っちまうだろ？　それに、十座に俺が初めてのダチだーみてぇに言ってたけど俺だって変わんねぇよ。結局、適当に表面だけの付き合いで下手したら下の名前覚えてねぇ奴だとか、苗字解んねぇとか、そんなのザラに居るような付き合いしかしてきてねぇんだわ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　正直今回は直ぐに十座を探しに行って、前の時間で付き合いがあった連中となんて直ぐに関係が希薄になったし、それに対して何も思わなかった。どうしても欲しかったものに、出来る限りの時間を割く。その為に切り捨てる惜しさもなかったような関係だ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　それでも、二年の付き合いはあったというのに、向こうから引き止められることも無かった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　次第に俺に遊びの誘いはこなくなり、自然と消えて行った。力なく笑って、強がりと言うか、お前だけじゃなかったんだと、自分が結局は一人だったと初めて認めて口にした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里、俺はお前のお陰で変われた。その、大事な奴だって思ってる。だから、その……こんな事言ったら可笑しいのかもしれないけど……万里にとっても、俺が初めてのダチって事か？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……ここまでの話聞いてて、一番最初に気にするのはそこなのかよ。あーもう！　そうだよ。俺の初めてのダチはお前で、一番大事なダチも、お前だ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「そう、か……。なんつーか、照れるな……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「言わされた俺の方が恥ずいわ！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　気恥ずかしさから視線を逸らしてそっぽを向いた俺に、小さく笑った十座の控えめな声が届いた。どれだけ俺は、コイツが好きなんだろう。自分の羞恥心も情けなさも、十座が笑ってくれるならそれでいい様な気がしてくる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺も、万里が一番だ。だから、すげぇ辛かった。また一人になるんじゃねぇかって不安だった。……誰かと一緒に居る温かさを知っちまったから、一人だったあの頃に戻るのが怖かった。無くしたく、ないって思った」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　たどたどしく語られる心の内を聞いている間に、頭の中で音が鳴り響いた。有体に言えば、ゲームでキャラクターのレベルが上がった時や、スキルを閃いた時のような、そんな音が。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そうだ、この方法なら俺達にだって出来るし、解るはずだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「十座、芝居良くするためのいい方法思いついた！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「今度は仲違いするような方法じゃねぇことを祈る」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「今度は大丈夫だっての。例えば、自分のせいで俺が誰かに狙われてたらどうする？　あ、そいつを殴るとかそういうのは無し。今と一緒で劇団に迷惑掛かるとかでもいいから、取り敢えず相手側に手は出せない。そんな奴から、お前万里と仲いいんだってな？　って聞かれたら？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……万里なんて奴知らねぇ、って言う。俺のせいでお前に迷惑掛かるなんてごめんだ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そうだろうな。俺だって同じようにする。だからこそ、今の俺達にピッタリな方法はこれしかない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「それが聞けて安心したぜ。それを、ランスキーとルチアーノに置き換える。台本にはねぇが、ルチアーノもランスキーもマフィアになる前にダチだった。で、まぁなんかあって離れ離れになっちまったんだけど、マフィアとして出会った。お互いに悪い事もいっぱいやってきたから逆恨みなんてもんもされてる訳だ。そんな二人が仲良しこよししてたらどうなるよ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一言一言分かりやすいように気を付けて音に乗せる。自分で考えておきながら、もしもそうだったら……なんてルチアーノとランスキーの見えない過去に思いを馳せる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……狙われるかも知れねぇな。――あ。だから相手に迷惑が掛からないように、嫌いなフリを、する？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「御名答。お前、俺と一緒に居るようになってから察しが良くなったじゃねぇか！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　言いたいことが伝わって、あからさまに十座の瞳に光が宿った。ぐしゃぐしゃと頭を撫でながら褒めてやれば、嫌がるどころか目を細めて嬉しそうにはにかむ。離れていたのが余程寂しかったのか、微かに擦り寄って来さえする。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　可愛いかよ……。あー……まじ天使。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いいか？　台本にはねぇ、俺達だけの設定だ。二人の関係性をルチアーノもランスキーも、カポネにすら知られちゃならねぇって思ってる。ランスキーに至っては、デューイに自分とルチアーノの関係性は絶対にバレたくない」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「誰が見てるか解らないから、大袈裟なほど毛嫌いしていると周りに思わせてるのか……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「でも心の中じゃ、互いに相手を一番のダチだと思ってる」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　感情を上手く乗せられないのならば、邪道かもしれないが役柄を俺達の土俵に引きずり込んじまえばいい。解らないことに悩むよりも、解る事を駆使して最後には答えを導き出せれば、きっと同じことだから。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「それなら、今と一緒だ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「だろ？　だから、芝居してる時だけは、一番大事だって思ってるのが周りにバレねぇように振舞わなきゃ、俺も、お前も、やられる。そう考えたら、出来る気しねぇ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「やれる……。それなら、俺はランスキーになれる……！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺たちなりのルチアーノとランスキー、やろうぜ？　最後の最後にファミリーを抜けて二人で街を出て行くときには、やっと一番のダチに表面も戻れる時だ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　みるみるうちに表情が明るくなって行く十座に安堵から胸を撫でおろした。我ながら上手い事考えたと自画自賛しつつ、レッスン室にかけられている時計を見ればいい時間だ。そろそろ風呂に入って部屋に引っ込まないと、左京さんにどやされる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「取り敢えず、明日から今の設定で行くぞ？　さっさと風呂入って寝ようぜ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「こんな時間か……。そうだな、行くか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　時間を忘れて自主練に励んで掴んだきっかけは、かなりデカいものになりそうだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二人で風呂に入り、部屋まで戻ってからは久しぶりにのんびりと芝居の事、学校の事、それから過去の事……離れていた時間を埋めるように口を動かした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ほんの少し距離が離れた期間があっただけなのに、話したい事も聞きたい事もたくさんで、気付いた時には次第に瞼が重くなって二人揃って大欠伸。顔を見合わせて小さく笑いながら布団に入ろうと互いのロフトへと登った。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おやすみ、十座」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あ……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ん？　どした？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いや……なんでも、ねぇ……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なんだよ。もう距離置くのはやめたんだし、言いたいことあるならちゃんと言えよ？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　歯切れ悪く視線をさ迷わせながら言いよどむ姿に首を傾げて、互いのロフトを仕切る柵の上で頬杖をつく。右に左にうろうろする視線を追いかけるように眺めていると、意を決したように正面から視線がぶつかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……一緒、寝ちゃダメか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……へ？　あ、はぁ</span></font></font>?!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　予想だにしなかった申し出に、脳内が一気に動きを止めた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　一緒に、寝る？　俺と、十座が？　不味いだろ。俺の下半身事情的に。絶対に俺の息子は大人しく寝てくれない。そうなったら、俺だって眠れる訳ない。……だけど、こんなおいしいイベント取りのがしていいのか？</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「やっぱ、気持ちわりぃよな……悪い。ちょっとまだ不安だったんだ。起きたらまた、万里に兵頭って呼ばれるんじゃねぇか、って。摂津って呼ばねぇと返事して貰えねぇんじゃねぇかって……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　上手く笑えない表情で言葉を連ねる姿を見て、俺の脳内では庇護欲が煩悩を殴り倒した。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おら、こっちこい。それとも俺がそっち行くか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「いいのか……？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「んな不安そうな顔されて、一人で寝かせられっかよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　気合でどうにかするしかねぇ。あんな不安そうな十座のお願い聞かねぇとか、そんなの選択肢にねぇから。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　嬉しそうに枕一個持って柵を乗り越えてくる姿の可愛さたるや。カメラで撮れねぇかわりに心のアルバムに１００枚は余裕で保存したし、俺の布団に包まって、嬉しそうに口元を緩めている姿にヒクリと反応しかけた息子には、脳内でハイスピードにフランダースの犬のラスト付近を上映して大人しくさせた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　抑えきれない笑みを口元に湛えながら、二人揃って布団に入ると二人分の温かさは思っていた以上に心地よくて、眠れないと思っていたのに気付いた時には深く夢を見ることも無い快眠具合だった。</span></font></font><br/>
+……<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">これは、癖になるかもしれない。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　次の日から距離感の戻った俺達に、秋組の連中はどことなく安心している様だった。正確には、戻ったというよりももっと近くなった、ではあるが。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　俺の後ろや隣を出来る限り離れずについて回る十座に、幸や真澄といった面々は顔を顰めて溜息を吐き出していた。未だに十座の気持ちが定まらず、従兄弟だと公言出来て居ない椋は、そんな十座を見て本当に嬉しそうに笑っていた。だから、もういいだろうと思って、学校帰りに談話室に居た椋に声を掛けて中庭に連れ出した。呼び出された理由も分からずおろおろしている姿に笑いながら「十座は、昔と変わったか？」って聞いてみた。自分と十座の関係性を知られていると思っていなかったのか驚いた後に、安堵している様だった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「十ちゃんが僕の事嫌いで、従兄弟だって言えないのかなって思ってたんです。でも、万里さんは知ってたんですね」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「夏組の公演、従兄弟が出るんだって誘われてな。すげぇ格好良かったぜ？　椋」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「わわっ！　ほんとうですかっ</span></font></font>?!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　……嬉しいなぁ！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ふんわりと嬉しそうに表情を緩めて笑う姿に、俺もつられて笑みが浮かぶ。十座が好きなスイーツみたいに、椋の笑顔は見ているだけで甘く感じる。それだけじゃなくて、コイツも男だし一本芯が通ってる凄い奴だって事を知ってるが。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「十座は椋が人見知りで、背中に隠れてるような奴だったのにあんなに堂々としてて眩しいって言ってた。間違いなく椋が十座にここにくる切っ掛け作ってやったんだよ。ただまぁ、あの性格だからな。……せめて一度舞台に立って、自分も変われたんだって見せてからじゃねぇと、格好いいお前の従兄弟って名乗れねぇんだとよ。だから、もうちょいアイツのワガママ許してやってくんね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……万里さんは十ちゃんの親友、なんですよね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「そう見えるんだったら、嬉しいな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「僕、あんなに十ちゃんが笑ってるの見た事無かったんです。だから、あの、ありがとうございます」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「礼言われるような事してねぇよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　本当に、礼を言われるようなもんじゃないんだ。誰にも解らないだろうが、俺の心の奥底では、いつもどこかで十座に対して、他の仲間に対しての負い目があって消える事は無い。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「言いたかっただけなんです。あの！　舞台が終わったら十ちゃんと万里さんと、僕と九ちゃん……えっと、十ちゃんの弟なんですけど。四人で遊びにとか、行きませんか？　九ちゃん、十ちゃんの事大好きで。だからいつも心配してて……きっと万里さんと一緒に居る十ちゃん見たら安心すると思うんです。……だめ、ですか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　椋のお願いポーズの時の目元は、十座とよく似ている気がして、そのお願いを無下には出来なかった。くしゃりと頭を撫でてやって頷くと、とても嬉しそうに笑っている。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「って事だから、十座に俺がバラしたの秘密な？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「解りました！　十ちゃんも僕に秘密にしてるからお相子ですね！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　屈託なく笑う姿をみて、見たことも無い幼いころの十座もこうだったのかもしれないと一人、表情を和らげた。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「どう……だった？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　通し稽古にはまだ少し早かったが、一刻も早く俺と十座の出した答えが周りにどう見えるのかが知りたくて、二人揃って頭を下げて我儘を言った。ぐだる事があっても、一回だけ最後まで通したいという俺と十座の願いを聞き届けてくれたみんなと共に、台本を持ったままでの通し稽古を終えた。全員で汗だくになり文字通り駆け抜けた後に、最後まで何も言わずに見ていてくれた監督ちゃんに不安げな顔を覗かせながら十座が問いかけた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「凄く良くなったよ。勿論細かい部分はまだまだだけど、一晩でどんな魔法使ったの？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「距離感が格段に良くなったな。摂津に引っ張られて兵頭の演技も熱が入ってる。このまま行けば、いいもんできんじゃねぇか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「っし！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　監督ちゃんと左京さんからのお褒めの言葉に、取り敢えずの第一段階としては上々の結果になったと小さく拳を握った。横目に見た十座も、口元を甘味を食ってる時みたいに緩めていた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「今度の組は、多少マシみてぇだな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「雄三さん</span></font></font>?!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……カントク、知り合いか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「春と夏の演技指導をしてくださった元ＭＡＮＫＡＩカンパニーの雄三さん。今回もお願いしてたんだ！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「おぉ、懐かしい顔あるな？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……っち。目ざとい野郎だ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　雄三のおっさんが来たことでまた一つ、時間が進んだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　指導に来た雄三のおっさんから、あの頃よりはマシになったとしてもぼろくそに言われて、それぞれに人生最大の後悔を演じろと言われた所までは一緒だった。ただあの時と違うのは、本当の意味でどう演じて良いのかが解らないという事。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ある意味、最大の後悔だった出会いを変えられたのならばという思いは、現在進行形で変わって行ってる。そうなると、本当に後悔なんてものは無い。後悔する程、熱を入れた物なんてカンパニーに入るまでは無かったから。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「坊主、考え込んでどうした」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あ、いや……ちっと、困ってる？　つーか」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万チャンが困るってなんかちょっと珍しいっすね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あー……まぁ無い事は無いが、少ないかもしんねーな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「それで、うちのリーダーは何をそんなに考え込んでる」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　左京さんからの言葉に乱れた髪を直すふりをして、居心地の悪さから髪に手を差し込んでくしゃり、と握りしめる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ちょっとさ、全部一人で考えてって言われてんのは解ってんだけど、演技以前の問題にぶち当たってるっつーか……。嫌味に聞こえたら悪いんだけど。俺、ちいせぇ後悔はあっても人生最大の後悔なんて言える物ねぇんだわ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「ガキが粋がって認めてねぇ、って面じゃねぇな」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　雄三のおっさんが言った一言で、胸の中で固まっていた想いをそっと口に出すことにした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「人生最大の後悔なんて大それたものを経験する程、俺……本気になったもんねぇんだ。自分で言うのもあれだけど、全部適当にやってもそれなりに出来て来て。全部が全部つまんねーって思ってた。だから、後悔するほど打ち込めたもんが無いっつーか。多分だけど芝居に出会ってこうやって仲間ってか、そんな奴ら出来てさ？　後悔する程の事があるとしたらきっとそれって『これから』なんじゃねぇかなって思って。……だから、これってどうすりゃいいんだって思って」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……なるほどな。坊主……摂津って言ったか。反対はあるのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　静かなレッスン室に響いた雄三のおっさんの声に顔を向けて視線を合わせると、まるで俺を見極めようとしている、そんな眼差しを感じる。勝手な考えだけど、多分少しは俺の演技を買ってくれてるんだろう。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「一番うれしかった事、って解釈でいいんすか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「後悔が無い、だけなら粋がってんじゃねぇぞって話だがな。熱くなれる物がなかったって言ってたが、後悔と同じように最大の歓喜もねぇのか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……いや、そっちはある」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そんなもん、十座の隣でこうやって肩並べられてる事だ。なんせ、それがしたくて何をとち狂ったのか、逆行までしたんだ。それ以外に最大の歓喜なんて無いし、きっとこっちは何年先になっても、ずっと変わらずに俺の一番の歓喜だ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「なら、お前はそれをやれ。ねぇもんを捏造して薄っぺらくされるよりテーマ変えた方がいいだろ。それにどっちにしたって自分の中を曝け出すって意味合いじゃそう変わりはねぇよ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……よく考えたら、こっちの方が羞恥上じゃね？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「左京の坊主が目を掛けてるだけあって勘がいいな？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ニヤリと人の悪い笑みを浮かべた雄三のおっさんの顔に引き攣った笑いを返して、ほんの少しだけ肩を落とした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　良く考えてみれば、本人を目の前にしてお前が大好きだと声高に叫ぶようなもん、だよな？
+</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　あー……ハズい。それでも、やるしかねぇ、よな……。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　それぞれに考える時間を取って、とうとう明日はカンパニー内での発表の日になる。適当に捏造して適当に演じた一回目。正直あの時の悔しさで一度カンパニーから逃げ出した。引き止めてくれた監督ちゃんに連れられて見た、それぞれの最大の後悔。その時に目の当たりにした自分と、兵頭の違い。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　演技の上手さなんてもんじゃなくて、ただ惹きつけられた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そこからはもうがむしゃらで。きっとあの時ほど本気で頭を下げた事なんてなかった。ただ、負けっぱなしじゃやれねぇなんて言ってたけど、あの時に俺はきっと兵頭に堕ちたんだろうな。眩い光を放って板の上に立つアイツが、昨日まで手を伸ばせば届く距離に居たのに、今は物凄く遠くてそれが堪らなく嫌だと思った。傍に居たいと、今ならあの時の気持ちを認められる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　今回は前座での発表ではなく、互いの相互理解の為カンパニー内でやる。俺の出番は、最後。これは一人だけ題材が違う事を考慮してだったが、有難かった。気恥ずかしくて終わった後に他の奴の演技なんて見れなかっただろうし。きっと十座も使い物にならなかったはずだから。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　さぁ……腹くくって演るか。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　目、かっ開いて見とけよお前ら。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……あざっした」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　演技を終えて頭を下げた。表面上は取り繕ってるが心臓はイテェし、顔を上げたくない程に恥ずかしい。人に自分の中身を曝け出す事は、いつになっても慣れない。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万チャンっ</span></font></font>!!<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「うおっ！　な、なんだよ……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺っち……十座サンと万チャンが、どうしてそんなに仲が良いのかってちょっと解らなかったんだけど。今の見て凄く、なんて言っていいか解んないんだけど……凄く解った気がした！」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……なんだそれ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　誰よりも先に動きを見せたのは太一だった。飛びついて来た体を受け止めた反動で上げた顔の先には、ニヤニヤと笑う大人組、慈愛の表情の臣。それから……顔を真っ赤にして手で覆って蹲ってる十座の姿。チラリと指の間から視線を投げては逸らすを繰り返しているその姿に、釣られて俺も顔が熱くなってくる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「っ……。あーちょっと、頭冷やしてくっから考察だとか、なんか色々後にして貰えねぇ？　まともに聞ける気がしねぇんで」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「しょうがねぇな。後悔を曝け出した奴らも最後に引っ張られちまってるみてぇだから、１０分休憩。その後に一人ひとり今後の課題だしてやる」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　雄三のおっさんの一言に、太一の頭をくしゃりと撫でて足早にレッスン室を飛び出した。どこに行きゃいいかもわからなかったが、この部屋を抜け出したかった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　顔はまだ、赤いままだった。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***</p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　逃げるように中庭まで歩みを進めると、ガーデンテーブルに腰掛けてぼんやりと夜空を眺める。いつもと変わらない筈のその空気が、少しだけ冷たく感じたのはきっと俺の顔が火照っていたからだろう。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「あ？　あー……おう」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　後ろから声を掛けられても、気配は感じていたから驚くことも無かった。振り向かなくても解ってる。十座が俺を追いかけて来たんだって。羞恥で顔を向ける事が出来す、後ろを向いたまま返事を返した。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　名前を呼んだきり、困惑というかどうしていいか解らない空気が伝わってくる。流石にやりすぎたかとか、気持ちわりぃとか思われたかもしれねぇとか、頭の中でたくさんの情報が一気に巡った。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「その……ありがとう、な」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……は？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「うれし、かった。恥ずかしいってのもあった、けど。万里が俺と会って、一緒に芝居してぇって思ってくれた事も、俺が変えたんだって言ってくれた事も。……全部、すげぇ嬉しかった。俺のポートレートで解ってると思うが、本当に誰かが俺の傍に居てくれるなんて無かったんだ。それが万里みたいな何でもできる奴が、わざわざ俺を選んで傍に居るのが……最初は何の冗談だって思ってた」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「だから、どんだけ自己評価低いんだって――」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「うまく……言えねぇけど、最後まで聞いてくれねぇか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……おう」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　真っ直ぐぶつかった視線は強くて、思わず怯んだ。何を言われるのか、きっと悪い事では無いだろうけど……怖い、なんて思った。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「出会いが出会いだったから、アレっきりだと思った。正直、あんな店に一人じゃ入れねぇし、一緒に行ってくれる奴なんて勿論居なくて。でも万里が好きな物を好きでいて何が悪いんだって言ってくれたから、あの時間は本当に楽しかった。帰りが近付いて、またこうしてどこかに行けりゃいいなんて思っても、誘い方も分からねぇし……断られたらって、そればっかりで」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　初めてスイパラに連れて行った帰り。随分としかめっ面をしてたのは、そんな事を考えてたのか。いいように使われたのが、気に喰わないのかと思ってた。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　俺もまだまだ、だわ。表情だけで考え読めるなんて思ってたが、甘かったな。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「万里から、また遊びに行かねぇかって誘われた時は耳を疑ったし、なんでそんな事言われるのか解らなかった。また食えねぇもん食って欲しいのかって思ってた。それなのに、日を空けずに連絡くれて、俺が食いたくても入れなかった店に連れて行かれて。それが何度も続いて……コイツはもしかしたら、俺が作り出した都合のいい幻って奴なんじゃねぇかって、本気で考えた事もある」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　流石に吹き出すと軽く睨まれた。でもその顔は解る。恥ずかしいんだよな？　顔の前で手を合わせて謝罪して、続けやすいように一度頷いてやる。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「俺がこんなんだから、家族も結構心配してて。それが春休みを境に休日も出歩くようになって、弟にどこに行ってるんだって聞かれて。ダチが出来たって言いたかったのに俺の幻だったらって思って言えなかった。本当は、家に連れて行って、家族を安心させてやりたかったけど、そんな事に万里を付き合わせるのも申し訳ねぇ気がして……」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「一個だけ言わせろ。公演終わったらお前の家遊びに行かせろよ。俺、外面マジでいいから、家族安心させるとか余裕だわ」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「……別に、いつも通りでいい。そのままで十分だ。そのままで十分すぎる位……万里は俺の自慢だから」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ふわりと笑った十座の姿に、泣きたくなった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　そんな事、言われていい様な奴じゃねぇかもしれねぇよ？　お前が欲しくて欲しくて、こうして時間まで遡るほどイカレタ奴だぜ？</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「昔も今も、万里は出会ってから一歩前で俺をずっと引っ張ってくれて。……時間はかかるだろうが、いつかちゃんとお前の隣に立ちてぇんだ。まだ暫く、引っ張ってってくれねぇか？」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　んな不安そうに見てんじゃねぇよ。当たり前だろうが。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　口に出したいことは多かったのにどれもこれも音にならない。代わりに手を伸ばして、引っ張って腕の中に閉じ込めた。力一杯抱きしめたって、コイツなら壊れるなんて無いと解っているから遠慮なんて無かった。心の奥底から溢れてくる形容しがたい感情の全てが、あらん限りで抱きしめたこの力で伝わればいいのに。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">「引っ張ってくに決まってんだろ？　勝手にドロップアウトなんてぜってぇ許さねぇから……この先も、」</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　ずっとお前の隣は俺の場所だ、なんて今はまだ……言えなかったけれど。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　反対に回された腕の強さも大概で、途中から締め付け合うみたいな事になって、息苦しくなってから二人で顔を見合わせて笑った。</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　　　</span></font></font>***<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　</span></font></font></p>
+<p><font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　二回目で良かった事。太一が苦しんでいる期間を短くしてやれた事。臣の遠慮を少しだけ無くしてやれた事。左京さんと並べる位にカンパニー全体を見られるようになった事。それから、公演が始まってからアドリプを入れて十座とその日その日で、遊べた事。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　千秋楽では最後の最後に示し合わせたようにアドリブを入れた。二人にしか分からない設定。ファミリーを抜けて街を抜け出すときが、ルチアーノとランスキーがダチに戻れる瞬間だと言ったあの言葉を二人ともずっと覚えていたんだ。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　だから最終日にだけ、逃げ出す前に舞台上で顔を見合わせてハイタッチをした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　その瞬間、確かに俺達と同じようにあの二人もかけがえのないダチだった。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　舞台袖ではどちらともなく両手を広げて、あの夜の様に力一杯抱き合った。感無量とはこの事かと満たされていれば、イチャイチャしてねぇでカーテンコールだと左京さんに二人揃ってケツに蹴りをぶち込まれた。それにすら笑って二人でもう一度舞台の上に駆けだした。</span></font></font><br/>
+<font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">　本当の意味での俺たちの幕開けは、今から始まる。</span></font></font></p>
+<p>―― <font face="NSimSun"><font size="2" style="font-size: 10pt"><span lang="zh-CN">さぁ、開演だ。</span></font></font></p>
+<p><br/>
+<br/>
+
+</p>
+</body>
+</html>
